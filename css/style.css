@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Lufga';
+    src: url('/fonts/lufga_fonts/Lufga-Regular.otf') format('truetype');
+}
+#box{border-radius: 50px;}
+.titulo{font-size: 40pt; font-weight: bold;}
+.bg-primary{background-color:#6393E8;}
+.text-primary{color: #6393E8!important;}
+.lista2 img{height: 50px;}
+.lista img{height: 35px;}
+/*.lista {max-width: 300px;}*/
+.carousel-item {max-height: 500px;}
+.nova-fonte{
+    font-family: Lufga;
+    font-style: normal;
+    font-weight: normal;
+}
+.linha {
+    height: 3px;
+}
+.espaco {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.estrela {height: 40px;}
+.icone {
+    width: 50px!important;
+    height: 50px!important;
+}
+.subtitulo {
+    margin-top: -0.8rem;
+}
+.fundo {
+    background: url(/Imagens/Rectangle\ 46.png) no-repeat center/100%;
+}
+.nav-link > img:hover {
+    filter: grayscale(100%)!important;
+}
+  .projetos:hover img {
+    filter: blur(5px);
+    cursor: pointer;
+  }
+  .none {
+      display: none;
+  }
