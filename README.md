@@ -1,5 +1,5 @@
 # Descrição
-Site One Page criada para portfólio do **Matheus Juan** através de um Template UI criado por ele mesmo.
+Site One Page criada para portfólio do [Matheus Juan](https://www.linkedin.com/in/matheus-juan-26490721a/) através de um UI Template criado por ele mesmo.
 
 # Propósito
 O sistema foi criado como base de estudo e prática para fixar os conhecimentos sobre **HTML, CSS, JS, Bootstrap 5** e **uso de Plugins**.
