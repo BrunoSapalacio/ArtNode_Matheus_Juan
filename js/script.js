@@ -6,7 +6,7 @@ $(document).ready(function(){
         autoHeight:true,
         nav:true,
         responsive:{
-            480:{
+            0:{
                 items:1,
                 nav:false
             },
@@ -21,35 +21,14 @@ $(document).ready(function(){
             }
         }
     });
-
-    /*let projeto = $('.projeto-carousel');
-    projeto.owlCarousel({
-        dots: true,
-        autoHeight:true,
-        autoWidth: true,
-        items: 1
-    });
-
-// Go to the next item
-    $('.next').click(function() {
-        owl.trigger('next.owl.carousel');
-    })
-// Go to the previous item
-    $('.prev').click(function() {
-    // With optional speed parameter
-    // Parameters has to be in square bracket '[]'
-    owl.trigger('prev.owl.carousel', [300]);
-    })*/
 });
 
 function projetosOver(x) {
     let tela = document.getElementById(x);
     tela.style.display = "block";
-    console.log(tela)
 }
 
 function projetosOut(x) {
     let tela = document.getElementById(x);
     tela.style.display = "none";
-    console.log(tela)
 }
